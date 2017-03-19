@@ -1,0 +1,13 @@
+g_value.png h_value.png f_value.png
+The g value is the shortest route from Paul's initial square.
+The h value is the sum of the number of rows and columns to the cake.
+The f value is the sum of g and h values.
+
+diagonals.png
+Although moving to diagonals is costly, Paul have to jump diagonally in order to get to his destination. When the path isn't completely blocked by the lava, Paul knows to choose another path that costs less.
+
+hops.png
+Paul will hop over the lava when this is the only available solution. Otherwise he will simply walk around the obstacle.
+
+swamp.png
+Now you I can add swamp grids! And Paul will still be able to figure out the shortest route based on cost.
